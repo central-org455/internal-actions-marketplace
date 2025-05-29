@@ -1,0 +1,12 @@
+site_name: Internal GitHub Actions Marketplace
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - search.suggest
+    - content.code.annotate
+    - navigation.sections
+nav:
+  - Home: index.md
+  - Actions:
+      - Compile: actions/compile.md
